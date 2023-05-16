@@ -1,8 +1,9 @@
 {
   "name": "@offday/picoapp-ts",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Typescript port of picoapp",
   "type": "module",
+  "types": "dist/picoapp-ts.d.ts",
   "main": "dist/picoapp-ts.cjs.js",
   "module": "dist/picoapp-ts.esm.js",
   "browser": "dist/picoapp-ts.umd.js",
