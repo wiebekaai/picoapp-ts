@@ -1,0 +1,16 @@
+/* https://aka.ms/tsconfig */
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ES6",
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "moduleResolution": "bundler",
+    "skipLibCheck": true,
+    "declaration": true,
+    "outDir": "dist"
+  },
+  "include": ["src"]
+}
